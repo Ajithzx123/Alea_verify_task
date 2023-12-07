@@ -5,7 +5,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class NUmController extends GetxController {
+class NumController extends GetxController {
   // making variable observable
   RxInt successCount = 0.obs;
   RxInt randomNumber = 0.obs;
@@ -24,10 +24,10 @@ class NUmController extends GetxController {
           snackPosition: SnackPosition.TOP);
     } else {
       print('Try Again');
-      // Get.snackbar(
-      //     'Try Again', 'Try Again Total count still:${successCount.value}',
-      //     backgroundColor: const Color.fromARGB(117, 33, 149, 243),
-      //     snackPosition: SnackPosition.BOTTOM);
+      Get.snackbar(
+          'Try Again', 'Try Again Total count is still:${successCount.value}',
+          backgroundColor: const Color.fromARGB(117, 33, 149, 243),
+          snackPosition: SnackPosition.BOTTOM);
     }
   }
 }
