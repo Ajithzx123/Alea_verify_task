@@ -14,3 +14,15 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+Personal Details
+Name: Prasidhi Premadas.
+Designation : Flutter Developer.
+Native: Kerala(Palakkad).
+present office name: Techraven(bengaluru).
+
+App Dtails
+1.why i choose this name?
+A.Combining "alea" (Latin for chance) and "verify," ensuring the verification of chance-based numbers.
+2.Which statemanagment used in this project?
+A.GETX statemanagment (getx dependency added).
